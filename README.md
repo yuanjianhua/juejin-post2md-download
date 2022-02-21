@@ -24,3 +24,25 @@ yarn add -D juejin-post2md-download
   "jj-post2md": "jj-post2md"
 }
 ```
+#### 使用流程
+
+``` sh
+jj-post2md
+
+? 请输入要下载的掘金用户ID号 <输入用户ID>
+? 是否确定备份掘金用户 <用户juejin昵称> 的文章？ 
+...
+...
+...
+<开始下载>
+```
+
+#### 获取用户ID
+
+获取用户id，如图：
+点击用户头像/用户名，找到地址栏，如https://juejin.cn/user/2629687546222509
+
+2629687546222509 则为用户ID
+
+![用户ID](./readme.png)
+
