@@ -1,5 +1,5 @@
 {
-  "name": "juejin-post2md-download",
+  "name": "juejin-post2md",
   "version": "1.0.0",
   "description": "一键下载指定掘金用户的文章，并转换成md文件",
   "bin": {
