@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "一键下载指定掘金用户的文章，并转换成md文件",
   "bin": {
-    "jj-post2md": "index.js"
+    "jj-post2md": "bin/index.js"
   },
   "license": "MIT",
   "author": "Mark.Yuan",
@@ -12,8 +12,15 @@
     "url": "https://github.com/yuanjianhua/juejin-post2md-download.git"
   },
   "homepage": "https://github.com/yuanjianhua/juejin-post2md-download/blob/dev/README.md",
-  "dependencies": {},
   "devDependencies": {
-    "axios": "^0.25.0"
-  }
+    "axios": "^0.25.0",
+    "cache-manager": "^3.6.0",
+    "cache-manager-fs-hash": "^1.0.0",
+    "chalk": "^4.1.0",
+    "commander": "^9.0.0",
+    "debug": "^4.3.3",
+    "inquirer": "^8.2.0",
+    "turndown": "^7.1.1"
+  },
+  "dependencies": {}
 }
